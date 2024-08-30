@@ -9,7 +9,7 @@ const useCounter = (initialvalue) => {
     setValue((prev) => prev - 1);
   };
   const reset = () => {
-    setValue(0);
+    setValue(initialvalue);
   };
 
   return { value, increment, decrement, reset };
