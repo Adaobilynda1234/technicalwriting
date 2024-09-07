@@ -1,4 +1,12 @@
-* {
+.container {
   background-color: black;
+  display: block;
+  margin: auto;
   color: white;
+}
+button {
+  background: white;
+  padding: 10px 12px;
+  border-radius: 5px;
+  color: black;
 }

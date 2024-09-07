@@ -1,11 +1,13 @@
 import React from "react";
-
-import "./App.css";
+import Reducercart from "./Reducercart";
+// import "./App.css";
 
 function App() {
+  // const [count, setCount] = useState(0);
+
   return (
     <div className="container">
-      <h1>Hello,This is the beginning of My technical writing Repository </h1>
+      <Reducercart />
     </div>
   );
 }
